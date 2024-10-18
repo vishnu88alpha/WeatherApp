@@ -4,10 +4,10 @@
     "slug": "WeatherApp",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/cloudy.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/cloudy.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -16,12 +16,18 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/cloudy.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.vishnu888.WeatherApp"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/cloudy.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "c7a4dffd-a88a-42fa-96c4-5cd069e38a3e"
+      }
     }
   }
 }
