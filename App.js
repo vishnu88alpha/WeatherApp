@@ -6,7 +6,7 @@ import Ionicons from 'react-native-vector-icons/Ionicons';
 import LoadingScreen from './screens/LoadingScreen';
 import WeatherComponent from './screens/WeatherComponent';
 
-const API_KEY = 'e74df13a802a89c55fb6f43789ea78a4';
+const API_KEY = 'Add Your Own Key from openweathermap.org';
 
 export default function App() {
   const [weatherData, setWeatherData] = useState(null);
